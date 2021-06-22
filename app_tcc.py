@@ -425,7 +425,7 @@ if btn_predict:
     st.subheader("O Aluno foi:")
     #result = "US $ "+str(round(result[0]*10,2))
     #v_resultado = str(result)
-    #st.sidebar.write(v_resultado)
+    st.sidebar.write(v_resultado)
     st.write(v_resultado)
 
     # plot a distribuição dos dados
